@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/styles.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <header>
+      <img class="catimg" src="/assets/img/cat.png" width="70px" height="70px" alt="cat">
+      <div class="conteudo-header">
+       <a href="#nasc" class="abrir-login">login</a>
+        <a href="#cat" class="abrir-registrar">Registrar</a>
+      </div>
+  </header>
+
+  <dialog class="modal-login">
+   <a class="nasc" href="#nasc">
+      <h1 class="closelog">X</h1>
+      <div class="conL">
+        <h1>Login</h1>
+        <form class="form1" action="" method="get">
+         <div class="form-control">
+           <label for="">Usuario</label>
+           <input type="text">
+         </div>
+         <div class="form-control">
+           <label for="">Senha</label>
+          <input type="password">
+         </div>
+        </form>
+         <div class="btn">
+           <button type="submit">Entrar</button>
+         </div>
+          <div class="contCA">
+            <h2>Cadastre-se</h2>
+            <p>Ainda não possui conta? cadastre-se no site</p>
+            <a class="bta" href="#">Cadastro</a>
+          </div>
+      </div>
+   </a>
+  </dialog>
+
+  <dialog class="modal-registrar">
+     <a class="cat" href="#cat">
+      <h1 class="closereg">X</h1>
+      <div class="conR">
+        <h1>Registrar</h1>
+        <form class="form2" action="" method="get">
+         <div class="form-control">
+           <label for="">Usuario</label>
+           <input type="text">
+         </div>
+         <div class="form-control">
+           <label for="">Senha</label>
+          <input type="password">
+         </div>
+         <div class="form-control">
+           <label for="">Senha</label>
+          <input type="password">
+         </div>
+         <div class="form-control">
+           <label for="">Senha</label>
+          <input type="password">
+         </div>
+        </form>
+         <div class="btnn">
+           <button type="submit">Cadastrar</button>
+         </div>
+      </div>
+     </a>
+   
+  </dialog>
+
+
+  {{{body}}}
+
+  <script src="/js/modal.js"></script>
+</body>
+</html>
